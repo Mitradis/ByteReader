@@ -1,0 +1,7 @@
+C:\Build\ByteReader\ByteReader\bin\Release\ByteReader.exe.config
+C:\Build\ByteReader\ByteReader\bin\Release\ByteReader.exe
+C:\Build\ByteReader\ByteReader\bin\Release\ByteReader.pdb
+C:\Build\ByteReader\ByteReader\obj\Release\ByteReader.FormMain.resources
+C:\Build\ByteReader\ByteReader\obj\Release\ByteReader.csproj.GenerateResource.Cache
+C:\Build\ByteReader\ByteReader\obj\Release\ByteReader.exe
+C:\Build\ByteReader\ByteReader\obj\Release\ByteReader.pdb
