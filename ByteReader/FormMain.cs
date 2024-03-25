@@ -60,7 +60,7 @@ namespace ByteReader
                         List<string> cacheFile = new List<string>();
                         foreach (string line2 in File.ReadAllLines(line1))
                         {
-                            cacheFile.AddRange(line2.Split(new string[] { ", " }, StringSplitOptions.None));
+                            cacheFile.AddRange(line2.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries));
                         }
                         List<byte> byteFile = new List<byte>();
                         foreach (string line2 in cacheFile)
