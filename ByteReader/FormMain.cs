@@ -40,7 +40,7 @@ namespace ByteReader
                         int fileSize = bytesFile.Length;
                         for (int i = 0; i < fileSize; i++)
                         {
-                            textBytes += bytesFile[i].ToString() + ", ";
+                            textBytes += bytesFile[i] + ", ";
                         }
                         File.WriteAllText(Path.Combine(Path.GetDirectoryName(line), Path.GetFileNameWithoutExtension(line) + ".txt"), textBytes);
                     }
